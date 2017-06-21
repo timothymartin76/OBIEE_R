@@ -47,7 +47,7 @@ x$Age.days = as.numeric(as.character(x$Age.days))
 
 
 ## Mapbox token
-Sys.setenv('MAPBOX_TOKEN' = 'pk.eyJ1IjoidGltb3RoeW1hcnRpbjc2IiwiYSI6ImFpMWoyWDQifQ.UFnI-Tun673bAdqSFpTKWA')
+Sys.setenv('MAPBOX_TOKEN' = 'xxxxxxxxxx')
 
 ## Create map
 p <- x %>%
