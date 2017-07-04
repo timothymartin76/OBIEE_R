@@ -73,7 +73,7 @@ Sys.setenv("plotly_api_key"="password")
 library(xml2)
 library(httr)
 
-## use httr package
+## use httr package to configure proxy
 set_config(use_proxy(url="url", port=8080, username="username", password="password", auth="basic"))
 set_config(config(ssl_verifypeer = 0L))
 
