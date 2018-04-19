@@ -10,7 +10,7 @@ library(plotly)
 
 
 setwd("C:/PostgreSQL_Docs/bijdbc")
-
+## Sys.setenv(JAVA_HOME='C:\\Program Files\\Java\\jdk1.6.0_45')
 
 drv <- JDBC("oracle.bi.jdbc.AnaJdbcDriver","bijdbc.jar")
 conn <- dbConnect(drv, "jdbc:oraclebi://sprdorabiw-hq.buildings.nycnet:9703/", "username", "password")
